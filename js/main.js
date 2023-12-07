@@ -25,6 +25,7 @@ function myFn() {
       elList.appendChild(newLi);
     } else if (elInp.value == "Kichik" && arr[i].toLowerCase() == arr[i]) {
       var newLi = document.createElement("li");
+      d;
       newLi.textContent = arr[i];
       elList.appendChild(newLi);
     }
